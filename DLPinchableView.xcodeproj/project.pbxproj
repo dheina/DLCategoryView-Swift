@@ -12,6 +12,8 @@
 		27C22E371DF97AE600D935B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C22E351DF97AE600D935B2 /* Main.storyboard */; };
 		27C22E391DF97AE600D935B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C22E381DF97AE600D935B2 /* Assets.xcassets */; };
 		27C22E3C1DF97AE600D935B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C22E3A1DF97AE600D935B2 /* LaunchScreen.storyboard */; };
+		27C22E451DF97B4200D935B2 /* DLPinchableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C22E441DF97B4200D935B2 /* DLPinchableView.swift */; };
+		27C22E471DF97BD600D935B2 /* DLParentPinchableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C22E461DF97BD600D935B2 /* DLParentPinchableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		27C22E381DF97AE600D935B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27C22E3B1DF97AE600D935B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27C22E3D1DF97AE600D935B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27C22E441DF97B4200D935B2 /* DLPinchableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DLPinchableView.swift; path = DLPinchableView/DLPinchableView.swift; sourceTree = "<group>"; };
+		27C22E461DF97BD600D935B2 /* DLParentPinchableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DLParentPinchableView.swift; path = DLPinchableView/DLParentPinchableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		27C22E301DF97AE600D935B2 /* DLPinchableView */ = {
 			isa = PBXGroup;
 			children = (
+				27C22E431DF97B2500D935B2 /* DLPinchableView */,
 				27C22E311DF97AE600D935B2 /* AppDelegate.swift */,
 				27C22E331DF97AE600D935B2 /* ViewController.swift */,
 				27C22E351DF97AE600D935B2 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				27C22E3D1DF97AE600D935B2 /* Info.plist */,
 			);
 			path = DLPinchableView;
+			sourceTree = "<group>";
+		};
+		27C22E431DF97B2500D935B2 /* DLPinchableView */ = {
+			isa = PBXGroup;
+			children = (
+				27C22E441DF97B4200D935B2 /* DLPinchableView.swift */,
+				27C22E461DF97BD600D935B2 /* DLParentPinchableView.swift */,
+			);
+			name = DLPinchableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27C22E451DF97B4200D935B2 /* DLPinchableView.swift in Sources */,
+				27C22E471DF97BD600D935B2 /* DLParentPinchableView.swift in Sources */,
 				27C22E341DF97AE600D935B2 /* ViewController.swift in Sources */,
 				27C22E321DF97AE600D935B2 /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +302,7 @@
 				27C22E421DF97AE600D935B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
