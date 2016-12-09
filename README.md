@@ -1,4 +1,4 @@
-# DLPinchableView
+# DLPinchableView - Swift Version
 
 Preview :
 
@@ -18,9 +18,9 @@ Supported OS : 7.0
 ##### Programmatically
 1. Add this code for init
 ```
-DLPinchableView *categoryView = [[DLPinchableView alloc]initWithFrame:CGRectMake(0, 0, 300, 300)];
-categoryView.image = [UIImage imageNamed:@"ImgCat1"];
-[self.view addSubview:categoryView];
+let pinchV:DLPinchableView = DLPinchableView.init(frame: CGRectMake(0, 0, 100, 100))
+pinchV.image = UIImage.init(named: "ImgCat1")
+self.view.addSubview(pinchV)
 ```
 
 
