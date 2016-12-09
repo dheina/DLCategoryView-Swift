@@ -4,7 +4,7 @@ Preview :
 
 ![N|Solid](https://github.com/dheina/DLPinchableView/blob/master/preview.gif?raw=true)
 
-DLPinchableView is Custom Library for iOS written in Objective-C.
+DLPinchableView is Custom Library for iOS written in Swift.
 Pinch, Rotate, and Pan your Image View. :)
 
 Supported OS : 7.0
